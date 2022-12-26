@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Architects+Daughter&family=Dancing+Script&display=swap');
+html{
+    background-color: #ffffff;
+}
+
+body{
+    margin: 20px 20px 0px 20px;
+}
+
+.s1{
+}
+
+header{
+    
+}
+
+nav{
+    background-color: #34495E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    border-radius: 3em;
+    margin: 0px 0px 0px 20%;
+    opacity: 0.8;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20pt;
+}
+nav ul li a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+opacity: 1;
+}
+
+nav ul li a:hover{
+    color: #cf4668c7;
+    transition: 1s;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+}
+a{
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+
+
+img{
+    width: 200px;
+    border-radius: 35rem;
+    position: relative;
+top: 70px; left: 5%;
+border-style: groove;
+border-color: rgb(0, 0, 0);
+}
+
+.name{
+    position: relative;
+    bottom: 55px; left: 20%;
+    font-size: 20pt;
+}
+
+.d2{
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.d21{
+    background-color: #cf4668;
+    width: 40%;
+    text-align: center;
+    border-radius: 0 2em 0 2em;
+    border-style: ridge;
+}
+
+.d21 p{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-size: 20pt;
+    
+}
+
+.d21 ul{
+    display: block;
+    text-align: left;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-size: 20pt;
+}
+
+.d21 h1{
+  font-size: 30pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: initial;
+  color: #0c1cfa80;
+  padding-top: 5%;
+  text-align: left;
+  padding-left: 10%;
+  text-decoration: underline;
+}
+
+.d22{
+    background-color: rgba(171, 158, 241, 0.308);
+    width: 60%;
+    text-align: center;
+    border-radius: 2em 0 2em 0;
+    border-style: ridge;
+}
+
+.d22 ul, ol{
+    display: block;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    font-size: 20pt;
+}
+
+.d22 h1{
+  font-size: 30pt;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: initial;
+  color: rgb(38, 0, 255);
+  padding-top: 2%;
+  text-align: left;
+  padding-left: 10%;
+  text-decoration: underline;
+}
+
+footer{
+    background: #34495E;
+    text-align: center;
+    width: 100%;
+    border-radius: 2em 2em 0 0;
+    border-style: ridge;
+
+}
+footer h2{
+    color: #ffffff;
+}
+
+
+input, textarea, button{
+  border: none;
+  width: 35%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', serif;
+  border-radius: 8px;
+}
+textarea{
+  height: 120px;
+}
+button{
+  font-size: 1.5em;
+  background-color: #e7d5d5;
+}
+
+button:hover{
+  background-color: #cf4668;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#d4 ul .bouton{
+  list-style-type: none;
+}
+ 
+#d4 ul .bouton a{
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 0;
+
+  
+}
+
+footer #d4 .ligne{
+  height: 2px;
+  margin: 30px 200px 30px 200px;
+  background-color: #ffffff;
+
+}
+footer .d3 .ligne{
+  height: 2px;
+  width: 20%;
+  background-color: #ffffff;
+  margin: auto;
+  align-self: center;
+
+}
+
+form{
+  padding-top: 10px;
+}
+footer #d4 .copyright span{
+  font-size: 25px;
+  color: #ffffff;  
+}
+
+
+footer #icons a{
+  font-size: 1.9rem;
+  color: #ffffff;
+}
+#icons i:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+  color: #cf4668;
+}
